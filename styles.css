@@ -1,0 +1,113 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif; /* Default font family */
+    margin: 0;
+    padding: 0;
+    background-image: url('school-background.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Container for form */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #1e4d6d; /* Dark blue color for header */
+    font-family: 'Verdana', sans-serif; /* Different font for header */
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    color: #111111; /* Light grey for subtext */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #2c3e50; /* Darker text for labels */
+}
+
+/* Input Fields */
+input[type="text"], input[type="email"], input[type="date"], input[type="tel"], select, textarea {
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for input fields */
+input[type="text"]:hover, input[type="email"]:hover, input[type="date"]:hover, input[type="tel"]:hover, select:hover, textarea:hover {
+    border-color: #1e4d6d; /* Blue border on hover */
+}
+
+/* Input focus effect */
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="tel"]:focus, select:focus, textarea:focus {
+    border-color: #3498db; /* Light blue on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styling */
+button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Result display styles */
+.result {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e7f9e7;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    text-align: center;
+}
+
+.result h2 {
+    font-size: 24px;
+    color: #1e4d6d;
+    font-family: 'Georgia', serif; /* Serif font for results */
+}
+
+.result p {
+    font-size: 18px;
+    color: #0d0909;
+    line-height: 1.6;
+}
